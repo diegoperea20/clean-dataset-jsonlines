@@ -1,0 +1,2057 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>3c9527d2c2424fd1a3e14f054b629a1f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="1"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:515}"
+id="u-3h_CmcDvvC" data-outputId="48a220ec-bb6a-44ab-e0f2-e0986150788f">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_json(<span class="st">&#39;/content/drive/MyDrive/MaestriaETL/MLA_100k.jsonlines&#39;</span>, lines<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1">
+
+  <div id="df-fb75cdab-9a79-48ce-b465-54d0294c3883" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>seller_address</th>
+      <th>warranty</th>
+      <th>sub_status</th>
+      <th>condition</th>
+      <th>seller_contact</th>
+      <th>deal_ids</th>
+      <th>base_price</th>
+      <th>shipping</th>
+      <th>non_mercado_pago_payment_methods</th>
+      <th>seller_id</th>
+      <th>...</th>
+      <th>status</th>
+      <th>video_id</th>
+      <th>catalog_product_id</th>
+      <th>subtitle</th>
+      <th>initial_quantity</th>
+      <th>start_time</th>
+      <th>permalink</th>
+      <th>geolocation</th>
+      <th>sold_quantity</th>
+      <th>available_quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>{'comment': '', 'longitude': -58.3986709, 'id'...</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>new</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>80.0</td>
+      <td>{'local_pick_up': True, 'methods': [], 'tags':...</td>
+      <td>[{'description': 'Transferencia bancaria', 'id...</td>
+      <td>74952096</td>
+      <td>...</td>
+      <td>active</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2015-09-05 20:42:53+00:00</td>
+      <td>http://articulo.mercadolibre.com.ar/MLA-578052...</td>
+      <td>{'latitude': -34.6280698, 'longitude': -58.398...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>{'comment': '', 'longitude': -58.5059173, 'id'...</td>
+      <td>NUESTRA REPUTACION</td>
+      <td>[]</td>
+      <td>used</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>2650.0</td>
+      <td>{'local_pick_up': True, 'methods': [], 'tags':...</td>
+      <td>[{'description': 'Transferencia bancaria', 'id...</td>
+      <td>42093335</td>
+      <td>...</td>
+      <td>active</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2015-09-26 18:08:30+00:00</td>
+      <td>http://articulo.mercadolibre.com.ar/MLA-581565...</td>
+      <td>{'latitude': -34.5935524, 'longitude': -58.505...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>{'comment': '', 'longitude': -58.4143948, 'id'...</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>used</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>60.0</td>
+      <td>{'local_pick_up': True, 'methods': [], 'tags':...</td>
+      <td>[{'description': 'Transferencia bancaria', 'id...</td>
+      <td>133384258</td>
+      <td>...</td>
+      <td>active</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2015-09-09 23:57:07+00:00</td>
+      <td>http://articulo.mercadolibre.com.ar/MLA-578780...</td>
+      <td>{'latitude': -34.6233907, 'longitude': -58.414...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>{'comment': '', 'longitude': -58.4929208, 'id'...</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>new</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>580.0</td>
+      <td>{'local_pick_up': True, 'methods': [], 'tags':...</td>
+      <td>[{'description': 'Transferencia bancaria', 'id...</td>
+      <td>143001605</td>
+      <td>...</td>
+      <td>active</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2015-09-28 18:47:56+00:00</td>
+      <td>http://articulo.mercadolibre.com.ar/MLA-581877...</td>
+      <td>{'latitude': -34.6281894, 'longitude': -58.492...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>{'comment': '', 'longitude': -58.5495042, 'id'...</td>
+      <td>MI REPUTACION.</td>
+      <td>[]</td>
+      <td>used</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>30.0</td>
+      <td>{'local_pick_up': True, 'methods': [], 'tags':...</td>
+      <td>[{'description': 'Transferencia bancaria', 'id...</td>
+      <td>96873449</td>
+      <td>...</td>
+      <td>active</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2015-08-24 22:07:20+00:00</td>
+      <td>http://articulo.mercadolibre.com.ar/MLA-576112...</td>
+      <td>{'latitude': -34.6346547, 'longitude': -58.549...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 48 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-fb75cdab-9a79-48ce-b465-54d0294c3883')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-fb75cdab-9a79-48ce-b465-54d0294c3883 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-fb75cdab-9a79-48ce-b465-54d0294c3883');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-cb8e4f3c-a9b1-4286-bc41-ca8c1f1672ed">
+  <button class="colab-df-quickchart" onclick="quickchart('df-cb8e4f3c-a9b1-4286-bc41-ca8c1f1672ed')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-cb8e4f3c-a9b1-4286-bc41-ca8c1f1672ed button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="LmvIU5H6EPzB" data-outputId="072e80ec-d19a-45ad-bc10-bfa2e9eccdbe">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<pre><code>Index([&#39;seller_address&#39;, &#39;warranty&#39;, &#39;sub_status&#39;, &#39;condition&#39;,
+       &#39;seller_contact&#39;, &#39;deal_ids&#39;, &#39;base_price&#39;, &#39;shipping&#39;,
+       &#39;non_mercado_pago_payment_methods&#39;, &#39;seller_id&#39;, &#39;variations&#39;,
+       &#39;location&#39;, &#39;site_id&#39;, &#39;listing_type_id&#39;, &#39;price&#39;, &#39;attributes&#39;,
+       &#39;buying_mode&#39;, &#39;tags&#39;, &#39;listing_source&#39;, &#39;parent_item_id&#39;,
+       &#39;coverage_areas&#39;, &#39;category_id&#39;, &#39;descriptions&#39;, &#39;last_updated&#39;,
+       &#39;international_delivery_mode&#39;, &#39;pictures&#39;, &#39;id&#39;, &#39;official_store_id&#39;,
+       &#39;differential_pricing&#39;, &#39;accepts_mercadopago&#39;, &#39;original_price&#39;,
+       &#39;currency_id&#39;, &#39;thumbnail&#39;, &#39;title&#39;, &#39;automatic_relist&#39;, &#39;date_created&#39;,
+       &#39;secure_thumbnail&#39;, &#39;stop_time&#39;, &#39;status&#39;, &#39;video_id&#39;,
+       &#39;catalog_product_id&#39;, &#39;subtitle&#39;, &#39;initial_quantity&#39;, &#39;start_time&#39;,
+       &#39;permalink&#39;, &#39;geolocation&#39;, &#39;sold_quantity&#39;, &#39;available_quantity&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="gynVlAiIFXwI" data-outputId="4a4b4803-9411-4e41-c8b5-36ac126a0d7a">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.hist(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">20</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>array([[&lt;Axes: title={&#39;center&#39;: &#39;base_price&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;seller_id&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;price&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;official_store_id&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;differential_pricing&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;original_price&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;stop_time&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;catalog_product_id&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;subtitle&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;initial_quantity&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;start_time&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;sold_quantity&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;available_quantity&#39;}&gt;, &lt;Axes: &gt;,
+        &lt;Axes: &gt;, &lt;Axes: &gt;]], dtype=object)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_99291ca3b60147fe88ba4dd1000e27ab/33320424800d55ed833b91c3f0579ffcf3d9624d.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:320}"
+id="9x-E0I0LFiBi" data-outputId="8405f23f-bf5e-479d-d12b-321b6c0e53f0">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+  <div id="df-5c07e908-5920-4bef-9446-78e4ee746226" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>base_price</th>
+      <th>seller_id</th>
+      <th>price</th>
+      <th>official_store_id</th>
+      <th>differential_pricing</th>
+      <th>original_price</th>
+      <th>catalog_product_id</th>
+      <th>subtitle</th>
+      <th>initial_quantity</th>
+      <th>sold_quantity</th>
+      <th>available_quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>1.000000e+05</td>
+      <td>1.000000e+05</td>
+      <td>1.000000e+05</td>
+      <td>818.000000</td>
+      <td>0.0</td>
+      <td>143.000000</td>
+      <td>1.100000e+01</td>
+      <td>0.0</td>
+      <td>100000.000000</td>
+      <td>100000.000000</td>
+      <td>100000.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>5.252423e+04</td>
+      <td>8.425269e+07</td>
+      <td>5.252433e+04</td>
+      <td>206.443765</td>
+      <td>NaN</td>
+      <td>1593.341958</td>
+      <td>3.727643e+06</td>
+      <td>NaN</td>
+      <td>35.093370</td>
+      <td>2.396990</td>
+      <td>34.842380</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>8.623127e+06</td>
+      <td>5.497257e+07</td>
+      <td>8.623127e+06</td>
+      <td>128.252953</td>
+      <td>NaN</td>
+      <td>2245.798072</td>
+      <td>1.884698e+06</td>
+      <td>NaN</td>
+      <td>421.076196</td>
+      <td>42.685077</td>
+      <td>420.808403</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>8.400000e-01</td>
+      <td>1.304000e+03</td>
+      <td>8.400000e-01</td>
+      <td>1.000000</td>
+      <td>NaN</td>
+      <td>120.000000</td>
+      <td>9.440400e+04</td>
+      <td>NaN</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>9.000000e+01</td>
+      <td>3.953591e+07</td>
+      <td>9.000000e+01</td>
+      <td>84.000000</td>
+      <td>NaN</td>
+      <td>449.000000</td>
+      <td>3.050702e+06</td>
+      <td>NaN</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>2.500000e+02</td>
+      <td>7.631063e+07</td>
+      <td>2.500000e+02</td>
+      <td>216.000000</td>
+      <td>NaN</td>
+      <td>858.000000</td>
+      <td>5.093232e+06</td>
+      <td>NaN</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>8.000000e+02</td>
+      <td>1.325659e+08</td>
+      <td>8.000000e+02</td>
+      <td>312.750000</td>
+      <td>NaN</td>
+      <td>1500.000000</td>
+      <td>5.103216e+06</td>
+      <td>NaN</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>2.222222e+09</td>
+      <td>1.946906e+08</td>
+      <td>2.222222e+09</td>
+      <td>446.000000</td>
+      <td>NaN</td>
+      <td>13999.000000</td>
+      <td>5.434513e+06</td>
+      <td>NaN</td>
+      <td>9999.000000</td>
+      <td>8676.000000</td>
+      <td>9999.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5c07e908-5920-4bef-9446-78e4ee746226')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-5c07e908-5920-4bef-9446-78e4ee746226 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-5c07e908-5920-4bef-9446-78e4ee746226');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-b83469d3-bf1a-4b0c-bf44-c315a5d23e7e">
+  <button class="colab-df-quickchart" onclick="quickchart('df-b83469d3-bf1a-4b0c-bf44-c315a5d23e7e')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-b83469d3-bf1a-4b0c-bf44-c315a5d23e7e button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="W8YferlXFpBq" data-outputId="95cac256-1675-4b1b-bc23-add0e2a16bdd">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>seller_address</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>warranty</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>sub_status</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>condition</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>seller_contact</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>deal_ids</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>base_price</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>shipping</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>non_mercado_pago_payment_methods</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>seller_id</th>
+      <td>int64</td>
+    </tr>
+    <tr>
+      <th>variations</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>location</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>site_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>listing_type_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>price</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>attributes</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>buying_mode</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>tags</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>listing_source</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>parent_item_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>coverage_areas</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>category_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>descriptions</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>last_updated</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>international_delivery_mode</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>pictures</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>official_store_id</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>differential_pricing</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>accepts_mercadopago</th>
+      <td>bool</td>
+    </tr>
+    <tr>
+      <th>original_price</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>currency_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>thumbnail</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>title</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>automatic_relist</th>
+      <td>bool</td>
+    </tr>
+    <tr>
+      <th>date_created</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>secure_thumbnail</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>stop_time</th>
+      <td>datetime64[ns, UTC]</td>
+    </tr>
+    <tr>
+      <th>status</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>video_id</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>catalog_product_id</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>subtitle</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>initial_quantity</th>
+      <td>int64</td>
+    </tr>
+    <tr>
+      <th>start_time</th>
+      <td>datetime64[ns, UTC]</td>
+    </tr>
+    <tr>
+      <th>permalink</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>geolocation</th>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>sold_quantity</th>
+      <td>int64</td>
+    </tr>
+    <tr>
+      <th>available_quantity</th>
+      <td>int64</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> object</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="dw8VrkRbGQmX" data-outputId="402039a6-587c-4099-bc6e-c79b0ad15f0b">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> df.columns:</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Columna: </span><span class="sc">{</span>column<span class="sc">}</span><span class="ss">, Primer valor: </span><span class="sc">{</span>df[column]<span class="sc">.</span>iloc[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Columna: seller_address, Primer valor: {&#39;comment&#39;: &#39;&#39;, &#39;longitude&#39;: -58.3986709, &#39;id&#39;: 78162842, &#39;country&#39;: {&#39;name&#39;: &#39;Argentina&#39;, &#39;id&#39;: &#39;AR&#39;}, &#39;address_line&#39;: &#39;&#39;, &#39;latitude&#39;: -34.6280698, &#39;search_location&#39;: {&#39;neighborhood&#39;: {&#39;name&#39;: &#39;San Cristóbal&#39;, &#39;id&#39;: &#39;TUxBQlNBTjkwNTZa&#39;}, &#39;state&#39;: {&#39;name&#39;: &#39;Capital Federal&#39;, &#39;id&#39;: &#39;TUxBUENBUGw3M2E1&#39;}, &#39;city&#39;: {&#39;name&#39;: &#39;Capital Federal&#39;, &#39;id&#39;: &#39;TUxBQ0NBUGZlZG1sYQ&#39;}}, &#39;zip_code&#39;: &#39;&#39;, &#39;city&#39;: {&#39;name&#39;: &#39;San Cristóbal&#39;, &#39;id&#39;: &#39;TUxBQlNBTjkwNTZa&#39;}, &#39;state&#39;: {&#39;name&#39;: &#39;Capital Federal&#39;, &#39;id&#39;: &#39;AR-C&#39;}}
+Columna: warranty, Primer valor: None
+Columna: sub_status, Primer valor: []
+Columna: condition, Primer valor: new
+Columna: seller_contact, Primer valor: None
+Columna: deal_ids, Primer valor: []
+Columna: base_price, Primer valor: 80.0
+Columna: shipping, Primer valor: {&#39;local_pick_up&#39;: True, &#39;methods&#39;: [], &#39;tags&#39;: [], &#39;free_shipping&#39;: False, &#39;mode&#39;: &#39;not_specified&#39;, &#39;dimensions&#39;: None}
+Columna: non_mercado_pago_payment_methods, Primer valor: [{&#39;description&#39;: &#39;Transferencia bancaria&#39;, &#39;id&#39;: &#39;MLATB&#39;, &#39;type&#39;: &#39;G&#39;}, {&#39;description&#39;: &#39;Acordar con el comprador&#39;, &#39;id&#39;: &#39;MLAWC&#39;, &#39;type&#39;: &#39;G&#39;}, {&#39;description&#39;: &#39;Efectivo&#39;, &#39;id&#39;: &#39;MLAMO&#39;, &#39;type&#39;: &#39;G&#39;}]
+Columna: seller_id, Primer valor: 74952096
+Columna: variations, Primer valor: []
+Columna: location, Primer valor: {}
+Columna: site_id, Primer valor: MLA
+Columna: listing_type_id, Primer valor: bronze
+Columna: price, Primer valor: 80.0
+Columna: attributes, Primer valor: []
+Columna: buying_mode, Primer valor: buy_it_now
+Columna: tags, Primer valor: [&#39;dragged_bids_and_visits&#39;]
+Columna: listing_source, Primer valor: 
+Columna: parent_item_id, Primer valor: MLA568261029
+Columna: coverage_areas, Primer valor: []
+Columna: category_id, Primer valor: MLA126406
+Columna: descriptions, Primer valor: [{&#39;id&#39;: &#39;MLA578052519-912855983&#39;}]
+Columna: last_updated, Primer valor: 2015-09-05T20:42:58.000Z
+Columna: international_delivery_mode, Primer valor: none
+Columna: pictures, Primer valor: [{&#39;size&#39;: &#39;500x375&#39;, &#39;secure_url&#39;: &#39;https://a248.e.akamai.net/mla-s1-p.mlstatic.com/5386-MLA4352067878_052013-O.jpg&#39;, &#39;max_size&#39;: &#39;1200x900&#39;, &#39;url&#39;: &#39;http://mla-s1-p.mlstatic.com/5386-MLA4352067878_052013-O.jpg&#39;, &#39;quality&#39;: &#39;&#39;, &#39;id&#39;: &#39;5386-MLA4352067878_052013&#39;}, {&#39;size&#39;: &#39;500x375&#39;, &#39;secure_url&#39;: &#39;https://a248.e.akamai.net/mla-s1-p.mlstatic.com/5361-MLA4352068035_052013-O.jpg&#39;, &#39;max_size&#39;: &#39;1200x900&#39;, &#39;url&#39;: &#39;http://mla-s1-p.mlstatic.com/5361-MLA4352068035_052013-O.jpg&#39;, &#39;quality&#39;: &#39;&#39;, &#39;id&#39;: &#39;5361-MLA4352068035_052013&#39;}]
+Columna: id, Primer valor: MLA578052519
+Columna: official_store_id, Primer valor: nan
+Columna: differential_pricing, Primer valor: nan
+Columna: accepts_mercadopago, Primer valor: True
+Columna: original_price, Primer valor: nan
+Columna: currency_id, Primer valor: ARS
+Columna: thumbnail, Primer valor: http://mla-s1-p.mlstatic.com/5386-MLA4352067878_052013-I.jpg
+Columna: title, Primer valor: Auriculares Samsung Originales Manos Libres Cable Usb Oferta
+Columna: automatic_relist, Primer valor: False
+Columna: date_created, Primer valor: 2015-09-05T20:42:53.000Z
+Columna: secure_thumbnail, Primer valor: https://a248.e.akamai.net/mla-s1-p.mlstatic.com/5386-MLA4352067878_052013-I.jpg
+Columna: stop_time, Primer valor: 2015-11-04 20:42:53+00:00
+Columna: status, Primer valor: active
+Columna: video_id, Primer valor: None
+Columna: catalog_product_id, Primer valor: nan
+Columna: subtitle, Primer valor: nan
+Columna: initial_quantity, Primer valor: 1
+Columna: start_time, Primer valor: 2015-09-05 20:42:53+00:00
+Columna: permalink, Primer valor: http://articulo.mercadolibre.com.ar/MLA-578052519-auriculares-samsung-originales-manos-libres-cable-usb-oferta-_JM
+Columna: geolocation, Primer valor: {&#39;latitude&#39;: -34.6280698, &#39;longitude&#39;: -58.3986709}
+Columna: sold_quantity, Primer valor: 0
+Columna: available_quantity, Primer valor: 1
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:491}"
+id="76nkeLGQKRjg" data-outputId="d5c21eff-7a8f-4a69-aa57-ddcad4beeb07">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualización de la variable objetivo</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;condition&#39;</span>].value_counts().plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, title<span class="op">=</span><span class="st">&#39;Distribución de Condiciones de los Productos&#39;</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_99291ca3b60147fe88ba4dd1000e27ab/84165ff0f5deb4e95c69cebaf90eab523bbf66bb.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="uU8K93_CWSuM">
+<p>Según al contexto y datos proporcionados por el docente y tambien
+realizada una investigación se dío a conocer parámetros útiles con lo
+cuales son los siguientes</p>
+</div>
+<div class="cell markdown" id="61cMlmw5WGWo">
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 65%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Columna Útil</strong></th>
+<th><strong>Razón</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>warranty_available</code></td>
+<td>La garantía puede aumentar la confianza del comprador.</td>
+</tr>
+<tr class="even">
+<td><code>free_shipping</code></td>
+<td>El envío gratuito puede influir en la decisión de compra.</td>
+</tr>
+<tr class="odd">
+<td><code>has_pictures</code></td>
+<td>Productos con imágenes suelen venderse mejor.</td>
+</tr>
+<tr class="even">
+<td><code>num_pictures</code></td>
+<td>Más imágenes pueden hacer que el producto sea más atractivo.</td>
+</tr>
+<tr class="odd">
+<td><code>log_price</code></td>
+<td>Reduce la dispersión de precios para mejorar el análisis.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_5pG9UhOKc7o" data-outputId="64879c94-fb59-41f3-e0b5-bc1cc17c7f23">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Limpieza de datos</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir columnas a eliminar</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>columns_to_drop <span class="op">=</span> [<span class="st">&#39;seller_contact&#39;</span>, <span class="st">&#39;deal_ids&#39;</span>, <span class="st">&#39;non_mercado_pago_payment_methods&#39;</span>, <span class="st">&#39;variations&#39;</span>,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&#39;coverage_areas&#39;</span>, <span class="st">&#39;descriptions&#39;</span>, <span class="st">&#39;international_delivery_mode&#39;</span>, <span class="st">&#39;video_id&#39;</span>,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&#39;subtitle&#39;</span>, <span class="st">&#39;catalog_product_id&#39;</span>, <span class="st">&#39;official_store_id&#39;</span>, <span class="st">&#39;differential_pricing&#39;</span>]</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Análisis de valores nulos en las columnas antes de eliminarlas</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Análisis de valores nulos antes de eliminar columnas:&quot;</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>missing_values <span class="op">=</span> df[columns_to_drop].isnull().<span class="bu">sum</span>()</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>total_rows <span class="op">=</span> <span class="bu">len</span>(df)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular porcentaje de valores nulos</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>missing_percentage <span class="op">=</span> (missing_values <span class="op">/</span> total_rows) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear DataFrame con análisis de nulos</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>drop_analysis <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Column&#39;</span>: columns_to_drop,</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Missing Values&#39;</span>: missing_values,</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Missing %&#39;</span>: missing_percentage</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el análisis antes de eliminar las columnas</span></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(drop_analysis)</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Eliminar columnas irrelevantes o con demasiados valores nulos</span></span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>df.drop(columns<span class="op">=</span>columns_to_drop, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir fechas a formato datetime</span></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>date_columns <span class="op">=</span> [<span class="st">&#39;date_created&#39;</span>, <span class="st">&#39;last_updated&#39;</span>, <span class="st">&#39;start_time&#39;</span>, <span class="st">&#39;stop_time&#39;</span>]</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> date_columns:</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>    df[col] <span class="op">=</span> pd.to_datetime(df[col], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraer características útiles</span></span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;warranty_available&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;warranty&#39;</span>].notnull()</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;free_shipping&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;shipping&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.get(<span class="st">&#39;free_shipping&#39;</span>, <span class="va">False</span>) <span class="cf">if</span> <span class="bu">isinstance</span>(x, <span class="bu">dict</span>) <span class="cf">else</span> <span class="va">False</span>)</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;has_pictures&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;pictures&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">len</span>(x) <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">if</span> <span class="bu">isinstance</span>(x, <span class="bu">list</span>) <span class="cf">else</span> <span class="va">False</span>)</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;num_pictures&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;pictures&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">len</span>(x) <span class="cf">if</span> <span class="bu">isinstance</span>(x, <span class="bu">list</span>) <span class="cf">else</span> <span class="dv">0</span>)</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;log_price&#39;</span>] <span class="op">=</span> np.log1p(df[<span class="st">&#39;price&#39;</span>])</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Selección de características relevantes para el modelo</span></span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>selected_features <span class="op">=</span> [<span class="st">&#39;log_price&#39;</span>, <span class="st">&#39;warranty_available&#39;</span>, <span class="st">&#39;free_shipping&#39;</span>, <span class="st">&#39;has_pictures&#39;</span>, <span class="st">&#39;num_pictures&#39;</span>, <span class="st">&#39;condition&#39;</span>]</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>df_model <span class="op">=</span> df[selected_features].dropna()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Análisis de valores nulos antes de eliminar columnas:
+                                                            Column  \
+seller_contact                                      seller_contact   
+deal_ids                                                  deal_ids   
+non_mercado_pago_payment_methods  non_mercado_pago_payment_methods   
+variations                                              variations   
+coverage_areas                                      coverage_areas   
+descriptions                                          descriptions   
+international_delivery_mode            international_delivery_mode   
+video_id                                                  video_id   
+subtitle                                                  subtitle   
+catalog_product_id                              catalog_product_id   
+official_store_id                                official_store_id   
+differential_pricing                          differential_pricing   
+
+                                  Missing Values  Missing %  
+seller_contact                             97781     97.781  
+deal_ids                                       0      0.000  
+non_mercado_pago_payment_methods               0      0.000  
+variations                                     0      0.000  
+coverage_areas                                 0      0.000  
+descriptions                                   0      0.000  
+international_delivery_mode                    0      0.000  
+video_id                                   97015     97.015  
+subtitle                                  100000    100.000  
+catalog_product_id                         99989     99.989  
+official_store_id                          99182     99.182  
+differential_pricing                      100000    100.000  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="VX7cm-QCUCd_" data-outputId="2129bcfd-530f-431b-f511-cdfafd66f20a">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar el dataset limpio</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_model.to_csv(<span class="st">&#39;/content/drive/MyDrive/MaestriaETL/data_clean.csv&#39;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dataset limpio guardado con éxito.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Dataset limpio guardado con éxito.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="10"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="yobWukpOLlpW" data-outputId="52cd3942-cdd5-4e5a-8da2-03214d1aaf64">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_clean <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/drive/MyDrive/MaestriaETL/data_clean.csv&#39;</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>df_clean.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+
+  <div id="df-a169562c-1463-4938-b2bd-50f49db47679" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>log_price</th>
+      <th>warranty_available</th>
+      <th>free_shipping</th>
+      <th>has_pictures</th>
+      <th>num_pictures</th>
+      <th>condition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4.394449</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>2</td>
+      <td>new</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7.882692</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>6</td>
+      <td>used</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4.110874</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1</td>
+      <td>used</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>6.364751</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>2</td>
+      <td>new</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>3.433987</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>2</td>
+      <td>used</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a169562c-1463-4938-b2bd-50f49db47679')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a169562c-1463-4938-b2bd-50f49db47679 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a169562c-1463-4938-b2bd-50f49db47679');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-cd1c3d5e-0e9b-49c8-a553-46d8c71e4206">
+  <button class="colab-df-quickchart" onclick="quickchart('df-cd1c3d5e-0e9b-49c8-a553-46d8c71e4206')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-cd1c3d5e-0e9b-49c8-a553-46d8c71e4206 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="2DTD-TLJLvqt" data-outputId="54462114-b75a-4ee1-e7b6-d59d662e175a">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df_clean.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+
+  <div id="df-29c363a8-e44a-40f1-8db6-ecc572c3c895" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>log_price</th>
+      <th>warranty_available</th>
+      <th>free_shipping</th>
+      <th>has_pictures</th>
+      <th>num_pictures</th>
+      <th>condition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>99995</th>
+      <td>3.433987</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>6</td>
+      <td>used</td>
+    </tr>
+    <tr>
+      <th>99996</th>
+      <td>5.480639</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>3</td>
+      <td>new</td>
+    </tr>
+    <tr>
+      <th>99997</th>
+      <td>6.398595</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1</td>
+      <td>used</td>
+    </tr>
+    <tr>
+      <th>99998</th>
+      <td>3.931826</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1</td>
+      <td>used</td>
+    </tr>
+    <tr>
+      <th>99999</th>
+      <td>4.330733</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>3</td>
+      <td>used</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-29c363a8-e44a-40f1-8db6-ecc572c3c895')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-29c363a8-e44a-40f1-8db6-ecc572c3c895 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-29c363a8-e44a-40f1-8db6-ecc572c3c895');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-144e8688-8892-4df5-95b1-eab2bc7983df">
+  <button class="colab-df-quickchart" onclick="quickchart('df-144e8688-8892-4df5-95b1-eab2bc7983df')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-144e8688-8892-4df5-95b1-eab2bc7983df button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
